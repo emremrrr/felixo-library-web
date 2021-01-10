@@ -1,0 +1,25 @@
+<table>
+  <tr>
+    <td>  begin date</td>
+    <td>  <input type="date" [(ngModel)]="beginDate"/></td>
+  </tr>
+  <tr>
+    <td>  end date</td>
+    <td>  <input type="date" [(ngModel)]="endDate" /></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><button (click)="request()">Submit</button></td>
+  </tr>
+</table>
+<hr />
+<table>
+  <tr>
+    <td> Book Name :</td>
+    <td> {{bookObj.name}}</td>
+  </tr>
+  <tr>
+    <td> Category Name :</td>
+    <td> {{bookObj.category.categoryName}}</td>
+  </tr>
+</table>

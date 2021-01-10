@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\helpers",
+    "\\src\\app\\login.component",
+    "\\src\\app\\models",
+    "\\src\\app\\repository",
+    "\\src\\app\\request.component",
+    "\\src\\app\\signalr",
+    "\\src\\environments"
+  ],
+  "SelectedNode": "\\src\\app\\request.component\\request.component.ts",
+  "PreviewInSolutionExplorer": false
+}
